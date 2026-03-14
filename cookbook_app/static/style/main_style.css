@@ -41,16 +41,7 @@ body {
     background-color: white;
     width: 560px;
     height: 580px;
-    border-radius: 20px;
-}
-
-.for_time{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 115px;
-    height: 31px;
-    background-color: rgba(16, 16, 16, 0.63);
+    padding: 28px 26px 11px 26px;
     border-radius: 20px;
 }
 
@@ -67,5 +58,21 @@ body {
 .for_img {
     width: 507px;
     height: 400px;
-    background-image: url(../media/puncake.svg);
+    background-image: url('../media/puncake.svg');
+    border-radius: 20px;
+    display: flex;           
+    align-items: flex-end;   
+    justify-content: flex-end; 
+    padding: 0px 20px 10px 10px;  
+}
+
+.for_time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 31px;
+    background-color: rgba(16, 16, 16, 0.63);
+    border-radius: 20px;
+    margin: 0;
 }
