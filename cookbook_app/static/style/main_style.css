@@ -13,8 +13,10 @@ body {
 }
 
 .content {
+    display: flex;
     margin-top: 220px;
     width: 1280px;
+
 }
 
 .for_category {
@@ -39,27 +41,41 @@ body {
 
 .card {
     background-color: white;
-    width: 560px;
-    height: 580px;
+    width: 500px;
+    height: 475px;
     padding: 28px 26px 11px 26px;
-    border-radius: 20px;
+    border-radius: 15px;
+    margin-bottom: 70px;
 }
 
 .clock {
-    width: 21px;
+    width: 20px;
     margin-right: 10px;
 }
 
 .time {
-    font-size: 18px;
+    font-size: 16px;
     color: white;
 }
 
-.for_img {
-    width: 507px;
-    height: 400px;
+.for_puncake {
+    width: 447px;
+    height: 320px;
     background-image: url('../media/puncake.svg');
-    border-radius: 20px;
+    background-size: 100%;
+    border-radius: 15px;
+    display: flex;           
+    align-items: flex-end;   
+    justify-content: flex-end; 
+    padding: 0px 20px 10px 10px;  
+}
+
+.for_sandwich {
+    width: 447px;
+    height: 320px;
+    background-image: url('../media/sandwich.svg');
+    background-size: 100%;
+    border-radius: 15px;
     display: flex;           
     align-items: flex-end;   
     justify-content: flex-end; 
@@ -70,9 +86,32 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 115px;
-    height: 31px;
+    width: 100px;
+    height: 25px;
     background-color: rgba(16, 16, 16, 0.63);
     border-radius: 20px;
     margin: 0;
+}
+
+.name_recipe {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 15px 0 6px 0;
+    color: #000000;
+}
+
+.for_cards {
+    display: flex;
+    width: 1015px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 115px;
+}
+
+.description_recipe {
+    width: 447px;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 20px;
+    color: #333333;
 }
