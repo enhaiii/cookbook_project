@@ -1,38 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная</title>
-    <link rel="stylesheet" href="../static/style/main_style.css">
-</head>
-<body>
-    <header>
-        <div class="menu">
-            <div class="content">
-                <img src="../static/media/logo.svg" alt="logo" class="logo">
-                <div class="search">
-                    <input type="text" placeholder="Поиск рецепта..">
-                    <img src="../static/media/filter.svg" alt="filter" class="filter">
-                    <a href="#"><img src="../static/media/lupa.svg" alt="lupa" class="lupa"></a>
+{% extends "header_footer.html" %}
+{%block style%}
+<link rel="stylesheet" href="../static/style/main_style.css">
+{%endblock%}
+{%block main%}
+<div class="content">
+    <div class="for_category">
+        <p class="category">Категории</p>
+        <a href="#"><img src="../static/media/arrow.svg" alt="arrow" class="arrow_category"></a>
+    </div>
+    <div class="for_cards">
+        <div class="card">
+            <!-- <img src="../static/media/puncake.svg" alt="puncake" class="img_recipe"> -->
+            <div class="for_img">
+                <div class="for_time">
+                    <img src="../static/media/clock.svg" alt="clock" class="clock">
+                    <p class="time">30 мин</p>
                 </div>
-                <div class="pages">
-                    <p class="name_page">Рецепты</p>
-                    <p class="name_page">Статьи</p>
-                </div>
-                <a href="#" class="button_sign_in"><p class="sign_in">Войти</p></a>
+            </div>
+            <div class="text_block">
+                <p class="name_recipe"></p>
+                <p class="description_recipe"></p>
             </div>
         </div>
-    </header>    
-    <main>
-        
-    </main>
-    <footer>
-        <div class="main_footer">
-            <div class="content">
-                <img src="../static/media/logo.svg" alt="logo" class="logo_footer">
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
+    </div>
+</div>
+{%endblock%}
