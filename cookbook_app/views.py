@@ -6,3 +6,9 @@ def recipe(request):
 
     }
     return render(request, 'main.html', context)
+
+def detailRecipe(request):
+    context = {
+
+    }
+    return render(request, 'recipe.html', context)

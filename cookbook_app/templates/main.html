@@ -7,9 +7,9 @@
     <div class="for_all_category">
         <div class="for_category">
             <p class="category">Категории</p>
-            <a href="#"><img src="../static/media/arrow.svg" alt="arrow" class="arrow_category"></a>
+            <a href="#"><img src="../static/media/arrow.svg" alt="arrow" class="arrow_category" id="arrow"></a>
         </div>
-        <div class="all_category">
+        <div class="all_category hidden" id="categoryMenu">
             <a href="#"><p class="name_category">Завтраки</p></a>
             <a href="#"><p class="name_category">Обеды</p></a>
             <a href="#"><p class="name_category">Ужины</p></a>
@@ -24,18 +24,20 @@
         </div>
     </div>
     <div class="for_cards">
-        <div class="card">
-            <div class="for_puncake">
-                <div class="for_time">
-                    <img src="../static/media/clock.svg" alt="clock" class="clock">
-                    <p class="time">30 мин</p>
+        <a href="/recipe/">
+            <div class="card">
+                <div class="for_puncake">
+                    <div class="for_time">
+                        <img src="../static/media/clock.svg" alt="clock" class="clock">
+                        <p class="time">30 мин</p>
+                    </div>
+                </div>
+                <div class="text_block">
+                    <p class="name_recipe">Панкейки</p>
+                    <p class="description_recipe">Один из самых популярных американских завтраков выглядит именно так. Пышные и чуточку пористые панкейки — это нечто среднее между оладьями и блинами.  В них добавляют масло..</p>
                 </div>
             </div>
-            <div class="text_block">
-                <p class="name_recipe">Панкейки</p>
-                <p class="description_recipe">Один из самых популярных американских завтраков выглядит именно так. Пышные и чуточку пористые панкейки — это нечто среднее между оладьями и блинами.  В них добавляют масло..</p>
-            </div>
-        </div>
+        </a>
         <div class="card">
             <div class="for_sandwich">
                 <div class="for_time">
@@ -62,4 +64,5 @@
         </div>
     </div>
 </div>
+<script src="../static/js/script_main.js"></script>
 {%endblock%}

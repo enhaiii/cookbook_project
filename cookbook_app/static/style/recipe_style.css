@@ -14,7 +14,24 @@ body {
 
 .content {
     display: flex;
+    justify-content: center;
     margin-top: 220px;
     width: 1280px;
+    margin-bottom: 100px;
 }
 
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: white;
+    width: 800px;
+    height: 3000px;
+    border-radius: 20px;
+    box-shadow: 4px 6px 4px 0px rgba(0, 0, 0, 0.1);
+    padding: 44px 59px 44px 59px;
+}
+
+.title_image {
+    width: 660px;
+}

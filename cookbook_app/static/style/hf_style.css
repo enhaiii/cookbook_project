@@ -42,7 +42,7 @@ header {
 
 .search {
     display: flex;
-    width: 500px;
+    width: 450px;
     justify-content: space-between;
     margin-left: 77px;
 }
@@ -57,10 +57,6 @@ input {
     font-size: 16px;
     padding-left: 12px;
     background-color: #FBFBFB;
-}
-
-.filter {
-    width: 30px;
 }
 
 .lupa {
