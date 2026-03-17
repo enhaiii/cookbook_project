@@ -21,9 +21,6 @@ body {
 }
 
 .list {
-    display: flex;
-    justify-content: center;
-    align-items: start;
     background-color: white;
     width: 800px;
     height: 3000px;
@@ -34,4 +31,57 @@ body {
 
 .title_image {
     width: 660px;
+}
+
+.activity {
+    display: flex;
+    width: 192px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.for_likes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    height: 28px;
+    background-color: rgba(16, 16, 16, 0.34);
+    border-radius: 20px;
+    margin: 0;
+    padding: 10px;
+}
+
+.heart {
+    height: 16px;
+}
+
+.text_likes {
+    font-size: 16px;
+    color: white;
+}
+
+.for_comment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 102px;
+    height: 28px;
+    background-color: rgba(16, 16, 16, 0.34);
+    border-radius: 20px;
+    margin: 0;
+    padding: 10px;
+}
+
+.star {
+    height: 18px;
+}
+
+.count_comment {
+    color: white;
+    font-size: 16px;
+}
+
+span {
+    color: #DBDBDB;
 }
