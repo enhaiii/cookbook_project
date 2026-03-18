@@ -38,6 +38,7 @@ body {
     width: 192px;
     justify-content: space-between;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .for_likes {
@@ -84,4 +85,80 @@ body {
 
 span {
     color: #DBDBDB;
+}
+
+.name_recipe {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.description_recipe {
+    width: 660px;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 22px;
+    margin-bottom: 18px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.all_ingredients {
+    margin-top: 18px;
+    border-radius: 20px;
+    border: 2px solid #FFCA7F;
+    width: 660px;
+    height: auto;
+    padding: 20px 30px 10px 30px;
+    margin-bottom: 40px;
+}
+
+.parametrs {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #FFCA7F;
+    padding-bottom: 8px;
+}
+
+.parametrs:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+.name_parametr {
+    font-size: 20px;
+}
+
+.weight_parametr {
+    font-size: 20px;
+}
+
+.name_step {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+
+.description_step {
+    font-size: 18px;
+    width: 660px;
+    text-align: justify;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.image_step {
+    width: 500px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
 }
