@@ -186,7 +186,7 @@ span {
     margin-top: 50px;
     background-color: white;
     width: 800px;
-    height: 1880px;
+    height: 1225px;
     border-radius: 20px;
     box-shadow: 4px 6px 4px 0px rgba(0, 0, 0, 0.1);
     padding: 44px 59px 44px 59px;
@@ -229,6 +229,7 @@ span {
     align-items: center;
     width: 660px;
     margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 .icon {
@@ -267,18 +268,48 @@ span {
     color: #333333;
 }
 
-.get_comment {
+.input_comment {
+    margin-top: 20px;
+    width: 660px;
+    height: 120px;
+    color: #000000;
+    font-size: 16px;
+    padding: 10px 10px 70px 10px;
+    text-align: left;
+    vertical-align: top;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.input_comment::placeholder {
+    color: #A2A2A2;
+}
+
+.send {
+    background-color: #FFCA7F;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    width: 220px;
+    width: 160px;
     height: 40px;
-    background-color: #FFCA7F;
-    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .get_all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 240px;
+    height: 40px;
+    background-color: #FFCA7F;
+    margin-bottom: 30px;
     font-size: 22px;
+    font-weight: 600;
     color: white;
 }
